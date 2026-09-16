@@ -2,7 +2,7 @@ import os
 from flask import Flask, render_template_string
 
 app = Flask(__name__)
-BOT_USERNAME = os.getenv("BOT_USERNAME", "YOUR_BOT_USERNAME")
+BOT_USERNAME = os.getenv("BOT_USERNAME", "LgotaInfo_bot")
 
 PAGE = """<!doctype html>
 <html lang="ru">
